@@ -1,0 +1,45 @@
+<ul class="pagination pull-right">
+	<?php if ($this->prevpage){?>
+	<li>
+	 	<a  href="<?php echo $this->home;?>">首页</a>
+	</li>
+	<?php }else{?>
+		<!-- <span class="current prev">首页</span> -->
+	<?php }?>
+
+	<?php if ($this->prevpage){?>
+	<li>
+	 	<a  href="<?php echo $this->prevpage;?>">上一页</a>
+	</li>
+	<?php }else{?>
+		<!-- <span class="current prev">首页</span> -->
+	<?php }?>
+
+	<?php foreach ($this->page as $key=>$val){?>
+	<?php if ($val){?>
+	<li>
+		<a href="<?php echo $val;?>"><?php echo $key;?></a>
+	</li>
+	<?php }else{?>
+	<li class="active">
+		<a href="javascript:void(0)"><?php echo $key;?></a>
+	</li>
+	<?php }?>
+	<?php }?>
+
+	<?php if ($this->nextpage){?>
+		<li>
+			<a href="<?php echo $this->nextpage;?>">下一页</a>
+		</li>
+		<?php }else{?>
+		<!-- <span class="current prev">下一页</span> -->
+		<?php }?>
+
+		<?php if ($this->last){?>
+		<li>
+			<a href="<?php echo $this->last;?>">末页</a>
+		</li>
+		<?php }else{?>
+		<!-- <span class="current prev">末页</span> -->
+		<?php }?>
+</ul>

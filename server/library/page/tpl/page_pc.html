@@ -1,0 +1,148 @@
+<style>
+
+    .paging-div{
+        width: 630px;
+        height: 30px;
+        margin-top: 30px;
+    }
+    .custom-ul{
+        border-top: 1px dashed #DED6D0;
+    }
+    .custom-ul li{
+        margin-top: 30px;
+    }
+    .custom-ul li:hover .custom-ul-p1{
+        color: #BF987B;
+    }
+    .prev-page,.next-page{
+        width: 16px;
+        height: 30px;
+        font-size: 30px;
+        cursor: pointer;
+        font-family: "宋体";
+        color: #333;
+        font-weight: bold;
+    }
+    .prev-page a,.next-page a{
+        color: #333;
+    }
+    .prev-page a{
+        position: relative;
+        /* top:-32px;*/
+        z-index: 9;
+    }
+    .prev-page{
+        margin-right: 23px;
+    }
+    .next-page{
+        margin-left: 40px !important;
+    }
+    .paging-div li{
+        margin-left: 17px;
+        float: left;
+    }
+    .paging-div li:first-child{
+        margin-left: 0;
+    }
+    .prev-page-li,.s-page-li{
+        width: 26px;
+        font-size: 18px;
+        color: #333;
+        line-height: 26px;
+        text-align: center;
+        height: 26px;
+        position: relative;
+        top:2px;
+        border-radius: 3px;
+        font-family: PingFangSC-Regular, sans-serif;
+    }
+    .prev-page-li a,.s-page-li a{
+        color: #666666;
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .prev-page-active{
+        background: #E1E1E1;
+    }
+    .prev-page-li:hover{
+        background: #9F0F09;
+    }
+    .prev-page-li:hover a{
+        color: #fff;
+    }
+    .jump-li span{
+        font-size: 16px;
+        color: #333333;
+        line-height: 26px;
+    }
+    .jump-li input{
+        display: inline-block;
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        border-radius: 3px;
+        width: 44px;
+        height: 30px;
+        color: #333;
+        padding: 5px;
+        text-align: center;
+        margin: 0 9px;
+    }
+    .jump-go{
+        width: 44px;
+        height: 30px;
+        background: #E1E1E1;
+        border-radius: 3px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 14px;
+        color: #999999;
+    }
+    .jump-go a{
+        color: #999999;
+    }
+
+</style>
+<div class="paging-div mr-three">
+    <ul>
+        <?php if ($this->pagenum>0) {?>
+        <?php if ($this->prevpage){?>
+        <li class="prev-page"><a href="<?php echo $this->prevpage;?>" class="display-a"><</a></li>
+        <?php }?>
+        <?php if ($this->page){?>
+        <?php foreach ($this->page as $key=>$val){?>
+        <?php if ($val){?>
+        <li class="prev-page-li"><a href="<?php echo $val;?>"><?php echo $key;?></a></li>
+        <?php }else{?>
+        <li class="prev-page-li prev-page-active"><a href="javascript:void(0)"><?php echo $key;?></a></li>
+        <?php }?>
+        <?php }?>
+        <?php }?>
+        <li class="jump-li"><span>到第</span><input type="text" name="page"/><span>页</span></li>
+        <li class="jump-go" data-num="<?php echo $this->pagenum;?>"><a href="javascript:void (0)">GO</a></li>
+        <?php if ($this->nextpage){?>
+        <li class="next-page"><a class="display-a" href="<?php echo $this->nextpage;?>">></a></li>
+        <?php }?>
+        <?php }?>
+    </ul>
+</div>
+<script>
+    $(".jump-go").click(function () {
+        var page = parseInt($("input[name=page]").val()),
+            pagenum =  parseInt($(this).data('num'));
+        if(isNaN(page)){
+            layer.msg('请输入正确页码');
+            return false;
+        }
+        if(page >= pagenum){
+            page = pagenum;
+        }
+        if(page===1){
+            location.href = "<?php echo $this->pre_url; ?>"+'/'+"index.html";
+            return false;
+        }
+        location.href = "<?php echo $this->pre_url; ?>"+'/'+page+".html";
+    });
+</script>

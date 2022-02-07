@@ -1,0 +1,2 @@
+[Thu, 16 Dec 21 15:14:01 +0800][INFO] delete from  admin_permissions where role_id = 3
+[Thu, 16 Dec 21 15:14:06 +0800][INFO] delete from  admin_permissions where role_id = 3

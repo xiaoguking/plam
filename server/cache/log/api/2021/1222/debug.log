@@ -1,0 +1,713 @@
+[2021-12-22 17:45:49]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/common/getSystem',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:45:53]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/user/login',
+    'username' => 'admin',
+    'password' => '123456',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Content-Type' => 'application/x-www-form-urlencoded',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Content-Length' => '30',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:45:53]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/user/info',
+    'token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Content-Type' => 'application/x-www-form-urlencoded',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Content-Length' => '269',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:45:53]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/user/getRouter',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:45:54]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/statistical',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:45:54]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/getretained',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:45:54]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/common/getSystem',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:45:59]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/system/getadmin',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:45:59]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/cron/list',
+    'page' => '1',
+    'limit' => '10',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:46:01]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/cron/execCron',
+    'id' => '7',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:46:03]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/statistical',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:46:03]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/getretained',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:46:16]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/onlineIng',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:46:36]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/statistical',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 17:46:36]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/getretained',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:08:56]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/user/info',
+    'token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Content-Type' => 'application/x-www-form-urlencoded',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Content-Length' => '269',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:08:56]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/user/getRouter',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:08:56]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/statistical',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:08:56]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/common/getSystem',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:08:56]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/getretained',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:31:49]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/getretained',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:31:50]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/getretained',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:31:50]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/getretained',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:31:52]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/onlineIng',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:31:55]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/roles/rolesList',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:31:55]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/user/List',
+    'page' => '1',
+    'limit' => '20',
+    'sort' => '+id',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:31:57]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/roles/list',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:31:57]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/roles/getTerrRouters',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:31:58]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/statistical',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 19:31:58]
+array (
+  'request' => 
+  array (
+    '_url' => '/api/home/getretained',
+  ),
+  'header' => 
+  array (
+    'Accept-Language' => 'zh-CN,zh;q=0.9',
+    'Accept-Encoding' => 'gzip, deflate',
+    'Referer' => 'http://localhost:9528/',
+    'Origin' => 'http://localhost:9528',
+    'Token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxIiwiaXNzIjoiaW1faHR0cCIsImlhdCI6MTY0MDE2NjM1MywiZXhwIjoxNjQwMTY2OTUzLCJuYmYiOjE2NDAxNjYzNTMsInN1YiI6ImdhbWUuY29tIiwianRpIjoiOTcxYTA2OGNlNDk1NDM4OGRjZmU0ZWJkYzliZWU0YzgifQ.1pVyH0m9SjhZ1Vc9nj2imb1RaxEgWaE8qF_rKuGSegc',
+    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'Accept' => 'application/json, text/plain, */*',
+    'Connection' => 'keep-alive',
+    'Host' => '192.168.13.209:8082',
+  ),
+)
+[2021-12-22 20:04:55]
+array (
+  'request' => 
+  array (
+    'SWOFT_SESSION_ID' => 'mkp0oa5ljj4qd6b4miad86a6n0',
+    '_url' => '/api/common/test',
+  ),
+  'header' => 
+  array (
+    'Cookie' => 'SWOFT_SESSION_ID=mkp0oa5ljj4qd6b4miad86a6n0',
+    'Connection' => 'keep-alive',
+    'Accept-Encoding' => 'gzip, deflate, br',
+    'Host' => '192.168.13.209:8082',
+    'Postman-Token' => '85eb2dc4-63fb-478b-9b6a-83c67ba26a93',
+    'Accept' => '*/*',
+    'User-Agent' => 'PostmanRuntime/7.28.4',
+  ),
+)
+[2021-12-22 20:05:05]
+array (
+  'request' => 
+  array (
+    'SWOFT_SESSION_ID' => 'mkp0oa5ljj4qd6b4miad86a6n0',
+    '_url' => '/api/common/test',
+  ),
+  'header' => 
+  array (
+    'Cookie' => 'SWOFT_SESSION_ID=mkp0oa5ljj4qd6b4miad86a6n0',
+    'Connection' => 'keep-alive',
+    'Accept-Encoding' => 'gzip, deflate, br',
+    'Host' => '192.168.13.209:8082',
+    'Postman-Token' => 'caf24dd6-efd0-48ca-b1db-35f3803e72d8',
+    'Accept' => '*/*',
+    'User-Agent' => 'PostmanRuntime/7.28.4',
+  ),
+)
+[2021-12-22 20:05:08]
+array (
+  'request' => 
+  array (
+    'SWOFT_SESSION_ID' => 'mkp0oa5ljj4qd6b4miad86a6n0',
+    '_url' => '/api/common/test',
+  ),
+  'header' => 
+  array (
+    'Content-Length' => '0',
+    'Cookie' => 'SWOFT_SESSION_ID=mkp0oa5ljj4qd6b4miad86a6n0',
+    'Connection' => 'keep-alive',
+    'Accept-Encoding' => 'gzip, deflate, br',
+    'Host' => '192.168.13.209:8082',
+    'Postman-Token' => 'be39ca0c-01d9-4410-a6f3-4c75e3701253',
+    'Accept' => '*/*',
+    'User-Agent' => 'PostmanRuntime/7.28.4',
+  ),
+)
+[2021-12-22 20:05:11]
+array (
+  'request' => 
+  array (
+    'SWOFT_SESSION_ID' => 'mkp0oa5ljj4qd6b4miad86a6n0',
+    '_url' => '/api/common/test',
+  ),
+  'header' => 
+  array (
+    'Content-Length' => '0',
+    'Cookie' => 'SWOFT_SESSION_ID=mkp0oa5ljj4qd6b4miad86a6n0',
+    'Connection' => 'keep-alive',
+    'Accept-Encoding' => 'gzip, deflate, br',
+    'Host' => '192.168.13.209:8082',
+    'Postman-Token' => '9211ea0c-3918-4598-9fde-bc67c6e6d30f',
+    'Accept' => '*/*',
+    'User-Agent' => 'PostmanRuntime/7.28.4',
+  ),
+)
+[2021-12-22 20:05:14]
+array (
+  'request' => 
+  array (
+    'SWOFT_SESSION_ID' => 'mkp0oa5ljj4qd6b4miad86a6n0',
+    '_url' => '/api/common/test',
+  ),
+  'header' => 
+  array (
+    'Cookie' => 'SWOFT_SESSION_ID=mkp0oa5ljj4qd6b4miad86a6n0',
+    'Connection' => 'keep-alive',
+    'Accept-Encoding' => 'gzip, deflate, br',
+    'Host' => '192.168.13.209:8082',
+    'Postman-Token' => '276ed5d9-ab00-4a5f-9665-9f27432e8a8d',
+    'Accept' => '*/*',
+    'User-Agent' => 'PostmanRuntime/7.28.4',
+  ),
+)
+[2021-12-22 20:05:19]
+array (
+  'request' => 
+  array (
+    'SWOFT_SESSION_ID' => 'mkp0oa5ljj4qd6b4miad86a6n0',
+    '_url' => '/api/common/test',
+  ),
+  'header' => 
+  array (
+    'Content-Length' => '0',
+    'Cookie' => 'SWOFT_SESSION_ID=mkp0oa5ljj4qd6b4miad86a6n0',
+    'Connection' => 'keep-alive',
+    'Accept-Encoding' => 'gzip, deflate, br',
+    'Host' => '192.168.13.209:8082',
+    'Postman-Token' => '93525822-0de5-4527-8728-125d93348107',
+    'Accept' => '*/*',
+    'User-Agent' => 'PostmanRuntime/7.28.4',
+  ),
+)
+[2021-12-22 20:05:23]
+array (
+  'request' => 
+  array (
+    'SWOFT_SESSION_ID' => 'mkp0oa5ljj4qd6b4miad86a6n0',
+    '_url' => '/api/common/test',
+  ),
+  'header' => 
+  array (
+    'Cookie' => 'SWOFT_SESSION_ID=mkp0oa5ljj4qd6b4miad86a6n0',
+    'Connection' => 'keep-alive',
+    'Accept-Encoding' => 'gzip, deflate, br',
+    'Host' => '192.168.13.209:8082',
+    'Postman-Token' => 'd65ed9cb-8183-493f-980f-0ab12ed14a8d',
+    'Accept' => '*/*',
+    'User-Agent' => 'PostmanRuntime/7.28.4',
+  ),
+)

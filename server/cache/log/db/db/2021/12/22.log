@@ -1,0 +1,243 @@
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`username` = 'admin' LIMIT :APL0
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] UPDATE `admin_user` SET `roles` = ?, `username` = ?, `name` = ?, `password` = ?, `avatar` = ?, `phone` = ?, `token` = ?, `create_time` = ?, `update_time` = ?, `email` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_roles' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] DESCRIBE `admin_roles`
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] SELECT `admin_roles`.`id`, `admin_roles`.`name`, `admin_roles`.`roles`, `admin_roles`.`desc`, `admin_roles`.`create_time`, `admin_roles`.`update_time` FROM `admin_roles` WHERE `admin_roles`.`id` = 1 LIMIT :APL0
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_menu' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] DESCRIBE `admin_menu`
+[Wed, 22 Dec 21 17:45:53 +0800][INFO] SELECT `admin_menu`.`id`, `admin_menu`.`name`, `admin_menu`.`pid`, `admin_menu`.`path`, `admin_menu`.`component`, `admin_menu`.`redirect`, `admin_menu`.`status`, `admin_menu`.`alwaysShow`, `admin_menu`.`meta`, `admin_menu`.`create_time`, `admin_menu`.`update_time`, `admin_menu`.`hidden`, `admin_menu`.`order` FROM `admin_menu` WHERE `admin_menu`.`status` = 0 ORDER BY `admin_menu`.`order` ASC
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_retained' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] DESCRIBE `admin_retained`
+[Wed, 22 Dec 21 17:45:54 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE 1 = 1 AND `admin_retained`.`times` > 2021 - 11 - 22 ORDER BY `admin_retained`.`times` DESC
+[Wed, 22 Dec 21 17:45:59 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:59 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 17:45:59 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 17:45:59 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:59 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 17:45:59 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 17:45:59 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:59 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 17:45:59 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 17:45:59 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_cron' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:45:59 +0800][INFO] DESCRIBE `admin_cron`
+[Wed, 22 Dec 21 17:45:59 +0800][INFO] SELECT `admin_cron`.`id`, `admin_cron`.`name`, `admin_cron`.`class`, `admin_cron`.`function`, `admin_cron`.`begin_time`, `admin_cron`.`end_time`, `admin_cron`.`next_time`, `admin_cron`.`cron`, `admin_cron`.`create_time`, `admin_cron`.`update_time`, `admin_cron`.`status` FROM `admin_cron` WHERE 1 = 1 ORDER BY `admin_cron`.`create_time` DESC LIMIT :APL0 OFFSET :APL1
+[Wed, 22 Dec 21 17:45:59 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM `admin_cron` WHERE 1 = 1
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_cron' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] DESCRIBE `admin_cron`
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_cron`.`id`, `admin_cron`.`name`, `admin_cron`.`class`, `admin_cron`.`function`, `admin_cron`.`begin_time`, `admin_cron`.`end_time`, `admin_cron`.`next_time`, `admin_cron`.`cron`, `admin_cron`.`create_time`, `admin_cron`.`update_time`, `admin_cron`.`status` FROM `admin_cron` WHERE `admin_cron`.`id` = 7 LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_retained' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] DESCRIBE `admin_retained`
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-09' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] UPDATE `admin_retained` SET `times` = ?, `news` = ?, `days1` = ?, `days3` = ?, `days7` = ?, `daynews` = ?, `box_trading` = ?, `nft_trading` = ?, `box_sales` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-10' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] UPDATE `admin_retained` SET `times` = ?, `news` = ?, `days1` = ?, `days3` = ?, `days7` = ?, `daynews` = ?, `box_trading` = ?, `nft_trading` = ?, `box_sales` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-11' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] UPDATE `admin_retained` SET `times` = ?, `news` = ?, `days1` = ?, `days3` = ?, `days7` = ?, `daynews` = ?, `box_trading` = ?, `nft_trading` = ?, `box_sales` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-12' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] UPDATE `admin_retained` SET `times` = ?, `news` = ?, `days1` = ?, `days3` = ?, `days7` = ?, `daynews` = ?, `box_trading` = ?, `nft_trading` = ?, `box_sales` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-13' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] UPDATE `admin_retained` SET `times` = ?, `news` = ?, `days1` = ?, `days3` = ?, `days7` = ?, `daynews` = ?, `box_trading` = ?, `nft_trading` = ?, `box_sales` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-14' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] UPDATE `admin_retained` SET `times` = ?, `news` = ?, `days1` = ?, `days3` = ?, `days7` = ?, `daynews` = ?, `box_trading` = ?, `nft_trading` = ?, `box_sales` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-15' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] UPDATE `admin_retained` SET `times` = ?, `news` = ?, `days1` = ?, `days3` = ?, `days7` = ?, `daynews` = ?, `box_trading` = ?, `nft_trading` = ?, `box_sales` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-16' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] UPDATE `admin_retained` SET `times` = ?, `news` = ?, `days1` = ?, `days3` = ?, `days7` = ?, `daynews` = ?, `box_trading` = ?, `nft_trading` = ?, `box_sales` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-17' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] UPDATE `admin_retained` SET `times` = ?, `news` = ?, `days1` = ?, `days3` = ?, `days7` = ?, `daynews` = ?, `box_trading` = ?, `nft_trading` = ?, `box_sales` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-18' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] UPDATE `admin_retained` SET `times` = ?, `news` = ?, `days1` = ?, `days3` = ?, `days7` = ?, `daynews` = ?, `box_trading` = ?, `nft_trading` = ?, `box_sales` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-19' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] UPDATE `admin_retained` SET `times` = ?, `news` = ?, `days1` = ?, `days3` = ?, `days7` = ?, `daynews` = ?, `box_trading` = ?, `nft_trading` = ?, `box_sales` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-20' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] UPDATE `admin_retained` SET `times` = ?, `news` = ?, `days1` = ?, `days3` = ?, `days7` = ?, `daynews` = ?, `box_trading` = ?, `nft_trading` = ?, `box_sales` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-21' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] UPDATE `admin_retained` SET `times` = ?, `news` = ?, `days1` = ?, `days3` = ?, `days7` = ?, `daynews` = ?, `box_trading` = ?, `nft_trading` = ?, `box_sales` = ? WHERE `id` = ?
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE `admin_retained`.`times` = '2021-12-22' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:01 +0800][INFO] INSERT INTO `admin_retained` (`times`, `news`, `days1`, `days3`, `days7`, `daynews`, `box_trading`, `nft_trading`, `box_sales`) VALUES (?, ?, ?, ?, ?, ?, DEFAULT, DEFAULT, DEFAULT)
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_retained' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] DESCRIBE `admin_retained`
+[Wed, 22 Dec 21 17:46:03 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE 1 = 1 AND `admin_retained`.`times` > 2021 - 11 - 22 ORDER BY `admin_retained`.`times` DESC
+[Wed, 22 Dec 21 17:46:16 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:16 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 17:46:16 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 17:46:16 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:16 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 17:46:16 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:36 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:36 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 17:46:36 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:36 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 17:46:36 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 17:46:36 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 17:46:36 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:37 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 17:46:37 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:37 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:37 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 17:46:37 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 17:46:37 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_retained' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 17:46:37 +0800][INFO] DESCRIBE `admin_retained`
+[Wed, 22 Dec 21 17:46:37 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE 1 = 1 AND `admin_retained`.`times` > 2021 - 11 - 22 ORDER BY `admin_retained`.`times` DESC
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_roles' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] DESCRIBE `admin_roles`
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT `admin_roles`.`id`, `admin_roles`.`name`, `admin_roles`.`roles`, `admin_roles`.`desc`, `admin_roles`.`create_time`, `admin_roles`.`update_time` FROM `admin_roles` WHERE `admin_roles`.`id` = 1 LIMIT :APL0
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_menu' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] DESCRIBE `admin_menu`
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT `admin_menu`.`id`, `admin_menu`.`name`, `admin_menu`.`pid`, `admin_menu`.`path`, `admin_menu`.`component`, `admin_menu`.`redirect`, `admin_menu`.`status`, `admin_menu`.`alwaysShow`, `admin_menu`.`meta`, `admin_menu`.`create_time`, `admin_menu`.`update_time`, `admin_menu`.`hidden`, `admin_menu`.`order` FROM `admin_menu` WHERE `admin_menu`.`status` = 0 ORDER BY `admin_menu`.`order` ASC
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_retained' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] DESCRIBE `admin_retained`
+[Wed, 22 Dec 21 19:08:56 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE 1 = 1 AND `admin_retained`.`times` > 2021 - 11 - 22 ORDER BY `admin_retained`.`times` DESC
+[Wed, 22 Dec 21 19:31:49 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:49 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 19:31:49 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 19:31:49 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:49 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:31:49 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:31:49 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_retained' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:49 +0800][INFO] DESCRIBE `admin_retained`
+[Wed, 22 Dec 21 19:31:49 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE 1 = 1 AND `admin_retained`.`times` > 2021 - 11 - 22 ORDER BY `admin_retained`.`times` DESC
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_retained' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] DESCRIBE `admin_retained`
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE 1 = 1 AND `admin_retained`.`times` > 2021 - 11 - 22 ORDER BY `admin_retained`.`times` DESC
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_retained' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] DESCRIBE `admin_retained`
+[Wed, 22 Dec 21 19:31:50 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE 1 = 1 AND `admin_retained`.`times` > 2021 - 11 - 22 ORDER BY `admin_retained`.`times` DESC
+[Wed, 22 Dec 21 19:31:52 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:52 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 19:31:52 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 19:31:52 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:52 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:31:52 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_roles' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] DESCRIBE `admin_roles`
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] SELECT `admin_roles`.`id`, `admin_roles`.`name`, `admin_roles`.`roles`, `admin_roles`.`desc`, `admin_roles`.`create_time`, `admin_roles`.`update_time` FROM `admin_roles`
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] SELECT `admin_user`.`id` AS `id`, `admin_user`.`name` AS `name`, `admin_user`.`roles` AS `roles`, `admin_user`.`phone` AS `phone`, `admin_user`.`email` AS `email`, `admin_user`.`username` AS `username`, `admin_user`.`create_time` AS `create_time` FROM `admin_user` WHERE 1 = 1 LIMIT :APL0 OFFSET :APL1
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_roles' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] DESCRIBE `admin_roles`
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] SELECT `admin_roles`.`id`, `admin_roles`.`name`, `admin_roles`.`roles`, `admin_roles`.`desc`, `admin_roles`.`create_time`, `admin_roles`.`update_time` FROM `admin_roles` WHERE `admin_roles`.`id` = 1 LIMIT :APL0
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] SELECT `admin_roles`.`id`, `admin_roles`.`name`, `admin_roles`.`roles`, `admin_roles`.`desc`, `admin_roles`.`create_time`, `admin_roles`.`update_time` FROM `admin_roles` WHERE `admin_roles`.`id` = 3 LIMIT :APL0
+[Wed, 22 Dec 21 19:31:55 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM `admin_user` WHERE 1 = 1
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_menu' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] DESCRIBE `admin_menu`
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT `admin_menu`.`id`, `admin_menu`.`name`, `admin_menu`.`pid`, `admin_menu`.`path`, `admin_menu`.`component`, `admin_menu`.`redirect`, `admin_menu`.`status`, `admin_menu`.`alwaysShow`, `admin_menu`.`meta`, `admin_menu`.`create_time`, `admin_menu`.`update_time`, `admin_menu`.`hidden`, `admin_menu`.`order` FROM `admin_menu` WHERE `admin_menu`.`status` = 0 ORDER BY `admin_menu`.`order` ASC
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_roles' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] DESCRIBE `admin_roles`
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT `admin_roles`.`id`, `admin_roles`.`name`, `admin_roles`.`roles`, `admin_roles`.`desc`, `admin_roles`.`create_time`, `admin_roles`.`update_time` FROM `admin_roles` LIMIT :APL0 OFFSET :APL1
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_menu' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] DESCRIBE `admin_menu`
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT `admin_menu`.`id`, `admin_menu`.`name`, `admin_menu`.`pid`, `admin_menu`.`path`, `admin_menu`.`component`, `admin_menu`.`redirect`, `admin_menu`.`status`, `admin_menu`.`alwaysShow`, `admin_menu`.`meta`, `admin_menu`.`create_time`, `admin_menu`.`update_time`, `admin_menu`.`hidden`, `admin_menu`.`order` FROM `admin_menu`
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_permissions' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] DESCRIBE `admin_permissions`
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT `admin_permissions`.`role_id`, `admin_permissions`.`permissions` FROM `admin_permissions` WHERE `admin_permissions`.`role_id` = '3'
+[Wed, 22 Dec 21 19:31:57 +0800][INFO] SELECT `admin_menu`.`id`, `admin_menu`.`name`, `admin_menu`.`pid`, `admin_menu`.`path`, `admin_menu`.`component`, `admin_menu`.`redirect`, `admin_menu`.`status`, `admin_menu`.`alwaysShow`, `admin_menu`.`meta`, `admin_menu`.`create_time`, `admin_menu`.`update_time`, `admin_menu`.`hidden`, `admin_menu`.`order` FROM `admin_menu` WHERE `admin_menu`.`id` IN ('47', '48', '49', '3', '4', '5')
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] DESCRIBE `admin_log`
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] DESCRIBE `admin_user`
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_retained' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] DESCRIBE `admin_retained`
+[Wed, 22 Dec 21 19:31:58 +0800][INFO] SELECT `admin_retained`.`id`, `admin_retained`.`times`, `admin_retained`.`news`, `admin_retained`.`days1`, `admin_retained`.`days3`, `admin_retained`.`days7`, `admin_retained`.`daynews`, `admin_retained`.`box_trading`, `admin_retained`.`nft_trading`, `admin_retained`.`box_sales` FROM `admin_retained` WHERE 1 = 1 AND `admin_retained`.`times` > 2021 - 11 - 22 ORDER BY `admin_retained`.`times` DESC

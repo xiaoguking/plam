@@ -1,0 +1,8 @@
+{
+  "require": {
+    "elasticsearch/elasticsearch": "~6.0",
+    "php-ffmpeg/php-ffmpeg": "^0.16.0",
+      "phalcon/devtools": "^3.4",
+    "phpoffice/phpexcel": "^1.8"
+  }
+}

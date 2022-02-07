@@ -1,0 +1,1214 @@
+[Mon, 20 Dec 21 09:46:31 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 09:46:31 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 09:46:31 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 09:46:31 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 09:46:31 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 09:46:46 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime asc
+[Mon, 20 Dec 21 09:46:46 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-19' order by gettime asc
+[Mon, 20 Dec 21 09:46:48 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 09:46:48 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 09:46:48 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 09:46:48 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 09:46:48 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 09:46:49 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime asc
+[Mon, 20 Dec 21 09:46:50 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-19' order by gettime asc
+[Mon, 20 Dec 21 09:46:53 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 09:46:53 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 09:46:53 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 09:46:53 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 09:46:53 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 09:50:15 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 09:50:15 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 09:50:15 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 09:50:15 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 09:50:15 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 09:50:43 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 09:50:43 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 09:50:43 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 09:50:43 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 09:50:43 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 10:32:24 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 10:32:24 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 10:32:24 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 10:32:24 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 10:32:24 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 10:32:28 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime asc
+[Mon, 20 Dec 21 10:32:28 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-19' order by gettime asc
+[Mon, 20 Dec 21 10:33:59 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 10:33:59 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 10:33:59 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 10:33:59 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 10:33:59 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-14'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-15'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-16'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-17'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-18'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-19'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-14'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-15'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-16'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-17'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-18'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-19'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-14'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-15'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-16'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-17'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-18'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-19'
+[Mon, 20 Dec 21 11:07:59 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20'
+[Mon, 20 Dec 21 11:08:00 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 11:08:00 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 11:08:00 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 11:08:00 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 11:08:00 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 11:41:17 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 11:41:17 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 11:41:17 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 11:41:17 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 11:41:17 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 11:41:42 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime asc
+[Mon, 20 Dec 21 11:41:42 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-19' order by gettime asc
+[Mon, 20 Dec 21 13:55:05 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 13:55:05 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 13:55:05 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 13:55:05 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 13:55:05 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 15:43:57 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 15:43:57 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 15:43:57 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 15:43:57 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 15:43:57 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 15:44:00 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime asc
+[Mon, 20 Dec 21 15:44:00 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-19' order by gettime asc
+[Mon, 20 Dec 21 15:51:21 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 15:51:21 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 15:51:21 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 15:51:21 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 15:51:21 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select gettime from login order by gettime asc limit 0,1
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-07'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-07'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-07'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-07'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-07'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-07'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-07'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-08'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-08'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-08'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-08'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-08'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-08'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-08'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-09'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-09'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-09'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-09'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-09'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-09'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-09'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-10'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-10'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-10'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-10'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-10'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-10'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-10'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-11'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-11'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-11'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-11'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-11'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-11'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-11'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-12'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-12'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-12'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-12'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-12'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-12'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-12'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-13'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-13'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-13'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-13'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-13'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-13'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-13'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-14'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-14'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-14'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-14'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-14'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-14'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-14'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-15'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-15'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-15'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-15'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-15'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-15'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-15'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-16'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-16'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-16'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-16'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-16'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-16'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-16'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-17'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-17'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-17'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-17'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-17'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-17'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-17'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-18'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-18'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-18'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-18'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-18'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-18'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-18'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-19'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-19'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-19'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-19'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-19'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-19'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-19'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-20'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-20'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-20'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:51:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:51:38 +0800][INFO] select count(*) as count from (select uid from login where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20' group by uid) as b
+[Mon, 20 Dec 21 15:51:38 +0800][INFO] select count(*) as count from register  where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:51:38 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 15:51:38 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:51:38 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 15:51:38 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 15:51:38 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:51:38 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 15:51:38 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:51:38 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select gettime from login order by gettime asc limit 0,1
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-07'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-07'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-07'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-07'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-07'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-07'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-07'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-08'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-08'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-08'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-08'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-08'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-08'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-08'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-09'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-09'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-09'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-09'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-09'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-09'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-09'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-10'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-10'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-10'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-10'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-10'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-10'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-10'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-11'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-11'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-11'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-11'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-11'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-11'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-11'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-12'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-12'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-12'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-12'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-12'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-12'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-12'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-13'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-13'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-13'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-13'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-13'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-13'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-13'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-14'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-14'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-14'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-14'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-14'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-14'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-14'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-15'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-15'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-15'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-15'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-15'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-15'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-15'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-16'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-16'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-16'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-16'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-16'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-16'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-16'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-17'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-17'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-17'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-17'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-17'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-17'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-17'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-18'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-18'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-18'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-18'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-18'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-18'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-18'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-19'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-19'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-19'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-19'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-19'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-19'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-19'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select 
+            *,
+            concat(round(100*day1/news,2),'%')  'days1'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct b.uid) 'day1'
+            from login a 
+            left join login b on a.uid = b.uid and DATE_FORMAT( b.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-20'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day3/news,2),'%')  'days3'
+            from (
+            select 
+            DATE_FORMAT( a.gettime,'%Y-%m-%d') 'time',
+			count(distinct a.uid) 'news',						
+            count(distinct c.uid) 'day3'
+            from login a 
+            left join login c on a.uid = c.uid and DATE_FORMAT( c.gettime,'%Y-%m-%d') =  DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 3), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-20'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select *,
+            concat(round(100*day7/news,2),'%')  'days7'
+            from (
+            select 
+			count(distinct a.uid) 'news',						
+            count(distinct d.uid) 'day7'
+            from login a 
+            left join login d on a.uid = d.uid and DATE_FORMAT( d.gettime,'%Y-%m-%d') = DATE_FORMAT(FROM_UNIXTIME(unix_timestamp( a.gettime ) + 60 * 60 * 24 * 7), '%Y-%m-%d' ) 
+            where  DATE_FORMAT( a.gettime,'%Y-%m-%d') = '2021-12-20'  group by DATE_FORMAT( a.gettime,'%Y-%m-%d') 
+            ) p
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select count(*) as count from register where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:52:04 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:52:07 +0800][INFO] select count(*) as count from (select uid from login where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20' group by uid) as b
+[Mon, 20 Dec 21 15:52:07 +0800][INFO] select count(*) as count from register  where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:52:07 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 15:52:07 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:52:07 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 15:52:07 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:52:07 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 15:52:07 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:52:07 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 15:52:07 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 15:55:49 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 15:55:49 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 15:55:49 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 15:55:49 +0800][INFO] select count(*) as count from (select uid from login where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20' group by uid) as b
+[Mon, 20 Dec 21 15:55:49 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 15:55:49 +0800][INFO] select count(*) as count from register  where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:55:49 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 15:55:49 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:55:49 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 15:55:49 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 16:22:33 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 16:22:33 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 16:22:33 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 16:22:33 +0800][INFO] select count(*) as count from (select uid from login where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20' group by uid) as b
+[Mon, 20 Dec 21 16:22:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 16:22:33 +0800][INFO] select count(*) as count from register  where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 16:22:33 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 16:22:33 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 16:22:34 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 16:22:34 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 16:22:41 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime asc
+[Mon, 20 Dec 21 16:22:41 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-19' order by gettime asc
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-14'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-15'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-16'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-17'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-18'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-19'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-14'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-15'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-16'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-17'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-18'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-19'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-14'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-15'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-16'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-17'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-18'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-19'
+[Mon, 20 Dec 21 16:22:43 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20'
+[Mon, 20 Dec 21 16:22:44 +0800][INFO] select count(*) as count from (select uid from login where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20' group by uid) as b
+[Mon, 20 Dec 21 16:22:44 +0800][INFO] select count(*) as count from register  where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 16:22:44 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 16:22:44 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 16:22:44 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 16:22:44 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 16:22:44 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 16:22:44 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 16:22:44 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 16:22:44 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 16:23:17 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime asc
+[Mon, 20 Dec 21 16:23:17 +0800][INFO] select ol_num,DATE_FORMAT( gettime, '%H:%i:%s' ) as gettime from ol where  DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-19' order by gettime asc
+[Mon, 20 Dec 21 19:03:28 +0800][INFO] select count(*) as count from register 
+[Mon, 20 Dec 21 19:03:28 +0800][INFO] select ol_num from ol where DATE_FORMAT( gettime, '%Y-%m-%d' ) = '2021-12-20' order by gettime desc limit 0,1
+[Mon, 20 Dec 21 19:03:28 +0800][INFO] select sum(price) as sum_pr from box_panic_buy
+[Mon, 20 Dec 21 19:03:28 +0800][INFO] select sum(price) as sum_pr from box_market_logs 
+[Mon, 20 Dec 21 19:03:28 +0800][INFO] select count(*) as count from (select uid from login where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20' group by uid) as b
+[Mon, 20 Dec 21 19:03:28 +0800][INFO] select sum(price) as sum_pr from card_market_logs 
+[Mon, 20 Dec 21 19:03:28 +0800][INFO] select count(*) as count from register  where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 19:03:28 +0800][INFO] select sum(price) as sum_pr from box_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 19:03:28 +0800][INFO] select sum(price) as sum_pr from card_market_logs where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'
+[Mon, 20 Dec 21 19:03:28 +0800][INFO] select sum(price) as sum_pr from box_panic_buy where DATE_FORMAT(gettime,'%Y-%m-%d') = '2021-12-20'

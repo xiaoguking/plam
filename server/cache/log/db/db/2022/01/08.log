@@ -1,0 +1,93 @@
+[Sat, 08 Jan 22 17:23:44 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_system' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:44 +0800][INFO] DESCRIBE `admin_system`
+[Sat, 08 Jan 22 17:23:44 +0800][INFO] SELECT `admin_system`.`id`, `admin_system`.`model`, `admin_system`.`key`, `admin_system`.`value`, `admin_system`.`create_time`, `admin_system`.`update_time` FROM `admin_system` WHERE `admin_system`.`key` = 'admin' AND `admin_system`.`model` = 'system' LIMIT :APL0
+[Sat, 08 Jan 22 17:23:47 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:47 +0800][INFO] DESCRIBE `admin_log`
+[Sat, 08 Jan 22 17:23:47 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Sat, 08 Jan 22 17:23:47 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:47 +0800][INFO] DESCRIBE `admin_user`
+[Sat, 08 Jan 22 17:23:47 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`username` = 'admin' LIMIT :APL0
+[Sat, 08 Jan 22 17:23:47 +0800][INFO] UPDATE `admin_user` SET `roles` = ?, `username` = ?, `name` = ?, `password` = ?, `avatar` = ?, `phone` = ?, `token` = ?, `create_time` = ?, `update_time` = ?, `email` = ? WHERE `id` = ?
+[Sat, 08 Jan 22 17:23:47 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:47 +0800][INFO] DESCRIBE `admin_log`
+[Sat, 08 Jan 22 17:23:47 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Sat, 08 Jan 22 17:23:47 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:47 +0800][INFO] DESCRIBE `admin_user`
+[Sat, 08 Jan 22 17:23:47 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] DESCRIBE `admin_user`
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_roles' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] DESCRIBE `admin_roles`
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] SELECT `admin_roles`.`id`, `admin_roles`.`name`, `admin_roles`.`roles`, `admin_roles`.`desc`, `admin_roles`.`create_time`, `admin_roles`.`update_time` FROM `admin_roles` WHERE `admin_roles`.`id` = 1 LIMIT :APL0
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_menu' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] DESCRIBE `admin_menu`
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] SELECT `admin_menu`.`id`, `admin_menu`.`name`, `admin_menu`.`pid`, `admin_menu`.`path`, `admin_menu`.`component`, `admin_menu`.`redirect`, `admin_menu`.`status`, `admin_menu`.`alwaysShow`, `admin_menu`.`meta`, `admin_menu`.`create_time`, `admin_menu`.`update_time`, `admin_menu`.`hidden`, `admin_menu`.`order` FROM `admin_menu` WHERE `admin_menu`.`status` = 0 ORDER BY `admin_menu`.`order` ASC
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] DESCRIBE `admin_log`
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] DESCRIBE `admin_log`
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] DESCRIBE `admin_user`
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] DESCRIBE `admin_user`
+[Sat, 08 Jan 22 17:23:48 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] DESCRIBE `admin_log`
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] DESCRIBE `admin_user`
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT `admin_user`.`id` AS `id`, `admin_user`.`name` AS `name` FROM `admin_user`
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] DESCRIBE `admin_user`
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT `admin_log`.`id`, `admin_log`.`api`, `admin_log`.`name`, `admin_log`.`time`, `admin_log`.`ip`, `admin_log`.`uid`, `admin_log`.`status`, `admin_log`.`info`, `admin_log`.`request`, `admin_log`.`client` FROM `admin_log` WHERE 1 = 1 ORDER BY `admin_log`.`time` DESC LIMIT :APL0 OFFSET :APL1
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT `admin_user`.`name` AS `name` FROM `admin_user` WHERE `admin_user`.`id` = 1 LIMIT :APL0
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT `admin_user`.`name` AS `name` FROM `admin_user` WHERE `admin_user`.`id` = 1 LIMIT :APL0
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT `admin_user`.`name` AS `name` FROM `admin_user` WHERE `admin_user`.`id` = 1 LIMIT :APL0
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT `admin_user`.`name` AS `name` FROM `admin_user` WHERE `admin_user`.`id` = 1 LIMIT :APL0
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT `admin_user`.`name` AS `name` FROM `admin_user` WHERE `admin_user`.`id` = 1 LIMIT :APL0
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT `admin_user`.`name` AS `name` FROM `admin_user` WHERE `admin_user`.`id` = 1 LIMIT :APL0
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT `admin_user`.`name` AS `name` FROM `admin_user` WHERE `admin_user`.`id` = 1 LIMIT :APL0
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT `admin_user`.`name` AS `name` FROM `admin_user` WHERE `admin_user`.`id` = 1 LIMIT :APL0
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT `admin_user`.`name` AS `name` FROM `admin_user` WHERE `admin_user`.`id` = 1 LIMIT :APL0
+[Sat, 08 Jan 22 17:23:51 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM `admin_log` WHERE 1 = 1
+[Sat, 08 Jan 22 17:23:55 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:55 +0800][INFO] DESCRIBE `admin_user`
+[Sat, 08 Jan 22 17:23:55 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Sat, 08 Jan 22 17:23:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:56 +0800][INFO] DESCRIBE `admin_log`
+[Sat, 08 Jan 22 17:23:56 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Sat, 08 Jan 22 17:23:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:56 +0800][INFO] DESCRIBE `admin_user`
+[Sat, 08 Jan 22 17:23:56 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Sat, 08 Jan 22 17:23:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_cron' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:56 +0800][INFO] DESCRIBE `admin_cron`
+[Sat, 08 Jan 22 17:23:56 +0800][INFO] SELECT `admin_cron`.`id`, `admin_cron`.`name`, `admin_cron`.`class`, `admin_cron`.`function`, `admin_cron`.`begin_time`, `admin_cron`.`end_time`, `admin_cron`.`next_time`, `admin_cron`.`cron`, `admin_cron`.`create_time`, `admin_cron`.`update_time`, `admin_cron`.`status` FROM `admin_cron` WHERE 1 = 1 ORDER BY `admin_cron`.`create_time` DESC LIMIT :APL0 OFFSET :APL1
+[Sat, 08 Jan 22 17:23:56 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM `admin_cron` WHERE 1 = 1
+[Sat, 08 Jan 22 17:23:58 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:58 +0800][INFO] DESCRIBE `admin_log`
+[Sat, 08 Jan 22 17:23:58 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Sat, 08 Jan 22 17:23:58 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:58 +0800][INFO] DESCRIBE `admin_user`
+[Sat, 08 Jan 22 17:23:58 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Sat, 08 Jan 22 17:23:58 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_menu' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:23:58 +0800][INFO] DESCRIBE `admin_menu`
+[Sat, 08 Jan 22 17:23:58 +0800][INFO] SELECT `admin_menu`.`id`, `admin_menu`.`name`, `admin_menu`.`pid`, `admin_menu`.`path`, `admin_menu`.`component`, `admin_menu`.`redirect`, `admin_menu`.`status`, `admin_menu`.`alwaysShow`, `admin_menu`.`meta`, `admin_menu`.`create_time`, `admin_menu`.`update_time`, `admin_menu`.`hidden`, `admin_menu`.`order` FROM `admin_menu` WHERE 1 = 1 AND `admin_menu`.`pid` = 0 ORDER BY `admin_menu`.`order` ASC LIMIT :APL0 OFFSET :APL1
+[Sat, 08 Jan 22 17:23:58 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM `admin_menu` WHERE 1 = 1 AND `admin_menu`.`pid` = 0
+[Sat, 08 Jan 22 17:24:07 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:24:07 +0800][INFO] DESCRIBE `admin_log`
+[Sat, 08 Jan 22 17:24:07 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Sat, 08 Jan 22 17:24:07 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:24:07 +0800][INFO] DESCRIBE `admin_user`
+[Sat, 08 Jan 22 17:24:07 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0
+[Sat, 08 Jan 22 17:24:08 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_log' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:24:08 +0800][INFO] DESCRIBE `admin_log`
+[Sat, 08 Jan 22 17:24:08 +0800][INFO] INSERT INTO `admin_log` (`api`, `name`, `time`, `ip`, `uid`, `status`, `info`, `request`, `client`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[Sat, 08 Jan 22 17:24:08 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'admin_user' AND `TABLE_SCHEMA` = DATABASE()
+[Sat, 08 Jan 22 17:24:08 +0800][INFO] DESCRIBE `admin_user`
+[Sat, 08 Jan 22 17:24:08 +0800][INFO] SELECT `admin_user`.`id`, `admin_user`.`roles`, `admin_user`.`username`, `admin_user`.`name`, `admin_user`.`password`, `admin_user`.`avatar`, `admin_user`.`phone`, `admin_user`.`token`, `admin_user`.`create_time`, `admin_user`.`update_time`, `admin_user`.`email` FROM `admin_user` WHERE `admin_user`.`id` = '1' LIMIT :APL0

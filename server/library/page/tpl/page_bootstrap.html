@@ -1,0 +1,107 @@
+<style>
+	.page-tz{
+		line-height: 39px;
+		margin-left: 20px;
+		color: #333;
+	}
+	.page-tz input{
+		width: 30px;
+		text-align: center;
+		margin: 0 10px;
+		height: 25px;
+		border: 1px solid #ccc;
+	}
+	.page-go{
+		margin-left: 10px;
+		width: 60px;
+		height: 25px;
+		color: #fff;
+		line-height: 25px;
+		text-align: center;
+		background: #FF4F53;
+		border-radius: 4px;
+		display: inline-block;
+	}
+	.page-go:hover{
+		color: #fff !important;
+	}
+</style>
+<!--分页-->
+<div class="paging-div fr">
+	<div class="totalPage">共<span><?php echo $this->maxnum;?></span>条</div>
+	<div class="pagem-span">每页</div>
+	<select name="pcount" id="pcount" class="form-control input-sm" data-url="" style="width:70px;float:left;margin-top: 5px;">
+		<option value="10" <?php if($this->pagesize==10){ ?>selected<?php } ?>>10</option>
+		<option value="20" <?php if($this->pagesize==20){ ?>selected<?php } ?>>20</option>
+		<option value="30" <?php if($this->pagesize==30){ ?>selected<?php } ?>>30</option>
+		<option value="50" <?php if($this->pagesize==50){ ?>selected<?php } ?>>50</option>
+		<option value="100" <?php if($this->pagesize==100){ ?>selected<?php } ?>>100</option>
+	</select>
+	<div class="page-div">
+		<?php if ($this->prevpage){?>
+		<a  href="<?php echo $this->home;?>"><div class="pageD">首页</div></a>
+		<?php }else{?>
+			<!-- <span class="current prev">首页</span> -->
+		<?php }?>
+		<ul class="pagination" style="margin: 7px 20px">
+			<?php if ($this->prevpage){?>
+			<li>
+				<a class="left-a" href="<?php echo $this->prevpage;?>"></a>
+			</li>
+			<?php }else{?>
+				<!-- <span class="current prev">首页</span> -->
+			<?php }?>
+			<?php if ($this->page){?>
+			<?php foreach ($this->page as $key=>$val){?>
+			<?php if ($val){?>
+			<li class="pagination-li">
+				<a href="<?php echo $val;?>"><?php echo $key;?></a>
+			</li>
+			<?php }else{?>
+			<li class="pagination-li active">
+				<a href="javascript:void(0)"><?php echo $key;?></a>
+			</li>
+			<?php }?>
+			<?php }?>
+			<?php }?>
+
+			<?php if ($this->nextpage){?>
+			<li>
+				<a class="right-a" href="<?php echo $this->nextpage;?>"></a>
+			</li>
+			<?php }else{?>
+			<!-- <span class="current prev">末页</span> -->
+			<?php }?>
+		</ul>
+		<?php if ($this->last){?>
+		<a href="<?php echo $this->last;?>"><div class="pageD">末页</div></a>
+		<?php }else{?>
+		<!-- <span class="current prev">末页</span> -->
+		<?php }?>
+	</div>
+	<div class="page-tz"><span>到第</span><input type="text" name="page_bootstrap"/><span>页</span></div>
+	<a href="javascript:void (0)" class="page-go" data-num="<?php echo $this->pagenum;?>">GO</a>
+</div>
+<script>
+	$('#pcount').change(function(){
+	var pcount = $(this).val();
+		location.href = "<?php echo $this->select_url; ?>"+'&pcount='+pcount;    
+	});
+
+    $(".page-go").click(function () {
+        var page = parseInt($(".page-tz input[name=page_bootstrap]").val()),
+            pagenum =  parseInt($(this).data('num'));
+        if(isNaN(page)){
+            alert('请输入正确页码');
+            return false;
+        }
+        if(page<1){
+            page = 1;
+        }
+        if(page >= pagenum){
+            page = pagenum;
+        }
+
+        location.href = "<?php echo $this->jump_url; ?>"+'&page='+page;
+    });
+</script>

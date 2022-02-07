@@ -1,0 +1,36 @@
+<div class="paging-div mr-three">
+    <ul>
+        <?php if ($this->prevpage){?>
+            <li class="prev-page"><a href="<?php echo $this->prevpage;?>" class="display-a"><</a></li>
+        <?php }?>
+        <?php if ($this->page){?>
+        <?php foreach ($this->page as $key=>$val){?>
+        <?php if ($val){?>
+            <li class="prev-page-li"><a href="<?php echo $val;?>"><?php echo $key;?></a></li>
+        <?php }else{?>
+            <li class="prev-page-li prev-page-active"><a href="javascript:void(0)"><?php echo $key;?></a></li>
+        <?php }?>
+        <?php }?>
+        <?php }?>
+        <li class="jump-li"><span>到第</span><input type="text" name="page"/><span>页</span></li>
+        <li class="jump-go" data-num="<?php echo $this->pagenum;?>"><a href="javascript:void (0)">GO</a></li>
+        <?php if ($this->nextpage){?>
+            <li class="next-page"><a class="display-a" href="<?php echo $this->nextpage;?>">></a></li>
+        <?php }?>
+    </ul>
+</div>
+<script>
+    $(".jump-go").click(function () {
+        var page = parseInt($("input[name=page]").val()),
+            pagenum =  parseInt($(this).data('num'));
+        if(isNaN(page)){
+            layer.msg('请输入正确页码');
+            return false;
+        }
+        if(page >= pagenum){
+            page = pagenum;
+        }
+
+        location.href = "<?php echo $this->url; ?>"+'?page='+page;
+    });
+</script>
